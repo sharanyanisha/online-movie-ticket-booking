@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+#header {
+    background-color:transparent;
+    color:red;
+    text-align:center;
+    padding:0px;
+   }
+#nav {
+    line-height:30px;
+    background-color:orange;
+    height:150px;
+    width:155px;
+    float:left;
+    padding:5px;	      
+}
+
+#section {
+height:700px;
+width:500px;
+    float:left;
+    padding:10px;	 	 
+}
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: right;
+}
+#coolMenu li a {
+display: block;
+    height: 1.5em;
+    line-height: 2em;
+    padding: 0.3em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 80px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+#coolMenu {
+    font-family: baskerville old face;
+    font-size: 12px;
+    background:black;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: orange;
+    color: #000;
+}
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: dark blue;
+}
+#coolMenu ul li a {
+    color: lime;
+}
+#coolMenu ul li:hover a {
+    background: dark blue;
+}
+#section {
+height:700px;
+width:1000px;
+    float:left;
+    padding:10px;
+    color: dark blue;	 	 
+}
+
+#footer {
+   
+text-align:center;
+height:70px;
+color:dark red;
+ 
+padding:5px;	 	 
+}
+</head>
+</style>
+<body background="z.jpg">
+<div id="header">
+<h1><font face="algerian"><mark>My Ticket Booking</mark></font></h1>
+<h6> BOOK YOUR SHOW ANYWHERE!!! ANYTIME!!! EVERYWHERE!!!</h6>
+</div>
+<div id="nav">
+<u>WHAT'S NEW</u><br>
+<u>TAMIL MOVIES</u><br>
+<u>ENGLISH MOVIES</u><br>
+<u>UPCOMING MOVIES</u><br>
+<u>OTHER MOVIES</u><br>
+</div>
+<ul id="coolMenu">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">PLAN MY SHOW</a></li>
+    <li>
+        <a href="#">SHOW TIMING</a>
+        <ul>
+            <li><a href="#">MORNING SHOW</a></li>
+            <li><a href="#">NOON SHOW</a></li>
+            <li><a href="#">NIGHT SHOW</a></li>
+        </ul>
+    </li>
+        <li><a href="#">CONTACT US</a></li>
+	<li><a href="#">CUSTOMER SUPPORT</a></li>
+</ul>
+
+<div id="section" font color="red">
+        <ul role="menubar">
+            <li role="menuitem" class="first"><a href="movie.html"><font color="red" face="Eras Medium ITC">MOVIES</font></a></li>
+<li role="menuitem" class="first"><a href="login.html"><font color="red" face="Eras Medium ITC">LOGIN</font></a></li>
+            <li role="menuitem"><a href="http://www.filmibeat.com/movie_listings/Chennai.html"><font color="red" face="Eras Medium ITC">THREATRE</font></a></li>
+            <li role="menuitem"><a href="/en/offers/index.html" id="linkspecial"><font color="red" face="Eras Medium ITC">SEAT AVAILABILITY</font></a></li>
+            <li role="menuitem"><a href="/en/travelinfo/index.html" id="linkinfo" ><font color="red" face="Eras Medium ITC">INFORMATION & SERVICES</font></a></li>
+            <li role="menuitem"><a href="http://www.awwwards.com/websites/food-drink/"><font color="red" face="Eras Medium ITC">FOOD AND BEVERAGES</font></a></li>
+            <li role="menuitem" class="last" id="menubusiness"><a href="http://www.groupon.co.in/coupons/tickets/movie-tickets/cinema-tickets"><font color="red" face="Eras Medium ITC">OFFERS</font></a></li>
+        </ul>
+<div>
+<div>
+<p><font face="copperplate gothic light",font size="5px", font color="green">ONLINE TICKET BOOKING</font></p>
+<table>
+<tr>
+                  <td bgcolor="transparent"><table width="30%" border="0" align="center" cellpadding="1" cellspacing="1"  style="margin: 0px;">
+                      <tbody>
+                        <tr>
+                          <td height="5" colspan="1" align="center" valign="top" bordercolor="#000000" bgcolor="transparent" style="margin-top: 0px;">&nbsp;</td>
+                        </tr>
+                       <td>
+ <tr>
+                         <b>User Name:&nbsp;&nbsp;&nbsp;</b> <font color="#FF0000"></font>
+
+	    <input type="text" name="name1" id="name"/><br><br>
+  
+    
+	  
+            <b>Email Id:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> <font color="#FF0000"></font>
+	    <input type="text" name="name1" id="name"/><br><br>
+  
+    </tr>
+                         
+<b>Password: &nbsp;&nbsp;&nbsp;&nbsp;</b><font color="#FF0000"></font>
+	  	  <input type="text" name="Password" id="password"/><br><br>
+  </td>
+                       <b>Moblie no:    &nbsp;&nbsp;</b><font color="#FF0000"></font>
+	    <input type="text" name="name1" id="sample"/><br><br>
+   </font> </b></td>
+                       
+                          <td bordercolor="#000000" bgcolor="transparent"><b><font color="#FF0000"></font>Date<font color="#FF0000">
+                         </font> </b></td>
+                          <td bordercolor="#000000" bgcolor="transparent">
+<select name="Date" size="1" style="font-size: 10px;">
+ <option selected value="">Date</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                              <option value="31">31</option>
+                            </select>  
+                        <select name="month" size="1" style="font-size: 10px;">
+                              <option value="">MM</option>
+                              <option value="January">Jan</option>
+                              <option value="February">Feb</option>
+                              <option value="March">Mar</option>
+                              <option value="April">Apr</option>
+                              <option value="May">May</option>
+                              <option value="June">Jun</option>
+                              <option value="July">Jul</option>
+                              <option value="August">Aug</option>
+                              <option value="September">Sep</option>
+                              <option value="October">Oct</option>
+                              <option value="November">Nov</option>
+                              <option value="December">Dec</option>
+                            </select>
+                            &nbsp;&nbsp;
+                            <select name="year" size="1" style="font-size: 10px;">
+                              <option value="">YYYY</option>
+                              <option value="2015">2015</option>
+                              <option value="2016">2016</option>
+                            </select>
+</td>
+</tr>
+</tr>
+                           
+<td height="22" bordercolor="#000000" bgcolor="transparent"><b><font color="#FF0000"></font>Number of seats
+                           </b></td>
+                          <td bordercolor="#000000" bgcolor="transparent"><select size="1" style="font-size: 10px;">
+                              <option selected value="">Seats</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10+</option>
+                            </select>
+                            &nbsp;&nbsp;</td>
+                        </tr>
+<tr>
+<td align="right"><input type="button" onclick=" " value="Search"></td>
+
+</tr> </table> 
+
+<h2><font color="indigo" font face="copperplate gothic light"> UPCOMING MOVIES</font></h2>
+<ul class="bulletText">
+ 
+</div>
+<marquee behavior="scroll" direction="right" width="1100px">
+<img src="3.jpg"  alt="" />
+<img src="2.jpg"  alt="" />
+<img src="4.jpg"  alt="" />
+<img src="qq.jpg"  alt="" />
+</marquee>
+
+    </section> 
+</div>
+
+<div id="footer">
+<br>
+Copyright ©my ticket booking.co.in.ltd.       </br>       
+<br>  All rights Reserved.   </br>   
+  </div>
+</body>
+</html>
+	
